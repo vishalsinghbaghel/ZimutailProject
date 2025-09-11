@@ -102,10 +102,12 @@ width: 49px;
     background: rgba(255, 255, 255, 0.15);
 }
 .active {
+    border: 1px solid #ffffff;
     border-radius: 15px;
-        border: 1px;
-       color: #ffffff;
-    
+    color: #ffffff;
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    text-align: center;
 }
 
 .icons {
@@ -136,7 +138,7 @@ width: 49px;
 
 .signup {
     background: #fff;
-    color: #e31937;
+    color: #ff4040;
     border: none;
     padding: 0.5rem 0.9rem;
     border-radius: 20px;

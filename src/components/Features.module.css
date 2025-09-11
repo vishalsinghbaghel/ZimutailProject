@@ -6,7 +6,7 @@
 .heading {
     font-size: clamp(1.75rem, 4vw, 2.5rem);
     font-weight: 800;
-    color: #e31937;
+    color: #ff4040;
     margin-bottom: 2rem;
     text-align: left;
 }
@@ -17,7 +17,7 @@
 }
 
 .card {
-    background-color: #e31937;
+    background-color: #ff4040;
     color: #fff;
     padding: 6rem;
     border-radius: 12px;

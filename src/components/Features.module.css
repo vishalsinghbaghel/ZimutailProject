@@ -1,0 +1,60 @@
+.section {
+    padding: 3rem 1rem;
+    background-color: #fff;
+}
+
+.heading {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: #e31937;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #e31937;
+    color: #fff;
+    padding: 6rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    background: rgba(255, 255, 255, 0.15);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffe6ea;
+}
+
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+

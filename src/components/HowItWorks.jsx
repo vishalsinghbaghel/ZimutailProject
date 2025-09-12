@@ -33,15 +33,23 @@ export default function HowItWorks() {
           How It Works
         </h2>
         <div className={styles.grid}>
+         
           {steps.map((step, index) => (
             <div key={index} className={styles.card}>
-             <div className={styles.icon}>
-                <img src={step.icon} alt={step.title} className={styles.iconImg} />
+              <div className={styles.icon}>
+                <img
+                  src={step.icon}
+                  alt={step.title}
+                  className={styles.iconImg}
+                />
               </div>
-              <div className={styles.connector}>
-                <span className={styles.dottedLine}></span>
-                <span className={styles.circle}></span>
-              </div>
+
+              {index < 2 && (
+                <div className={styles.connector}>
+                  <span className={styles.dottedLine}></span>
+                  <span className={styles.circle}></span>
+                </div>
+              )}
 
               <h3 className={styles.title}>{step.title}</h3>
               <p className={styles.description}>{step.description}</p>
@@ -51,6 +59,5 @@ export default function HowItWorks() {
         </div>
       </div>
     </section>
-   
   );
 }

@@ -1,7 +1,4 @@
 
-
-
-
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
@@ -57,18 +54,21 @@ export function Footer() {
         <div className={styles.footerBottom}>
           <h3 className={styles.heading}>Follow Us</h3>
           <div className={styles.socials}>
-            <a href="#" aria-label="LinkedIn">
-              in
-            </a>
-            <a href="#" aria-label="Facebook">
-              f
-            </a>
-            <a href="#" aria-label="Instagram">
-              📷
-            </a>
-            <a href="#" aria-label="YouTube">
-              ▶
-            </a>
+            <Link to="/linkedin" aria-label="LinkedIn">
+              <img src="linkedin.png" height="20px" width="20px" />
+            </Link>
+            <Link to="/facebook" aria-label="Facebook">
+              <img src="facebook.png" height="20px" width="20px" />
+            </Link>
+            <Link to="/instagram" aria-label="Instagram">
+              <img src="instagram.png" height="20px" width="20px" />
+            </Link>
+            <Link to="/youtube" aria-label="YouTube">
+              <img src="youtube.png" height="20px" width="20px" />
+            </Link>
+            <Link to="/twitter" aria-label="Twitter">
+              <img src="twitter.png" height="20px" width="20px" />
+            </Link>
           </div>
         </div>
       </div>

@@ -41,26 +41,23 @@ export  function Navbar() {
           >
             Seller
           </NavLink>
-         
         </nav>
-       <h2 className="zim">Zimutail</h2>
+        <h2 className="zim">Zimutail</h2>
         {/* Icons + Auth */}
         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
           <div className={css.icons}>
-            <button className={css.iconBtn} aria-label="Search">
-              🔍
+            <button className={css.iconBtn} >
+              <img src="search.png" />
             </button>
-            <button className={css.iconBtn} aria-label="Favorites">
-              ❤️
+            <button className={css.iconBtn} >
+              <img src="heart.png" />
             </button>
-            <button className={css.iconBtn} aria-label="Location">
-              📍
+
+            <button className={css.iconBtn} >
+              <img src="shopping-bag.png"height="30px"width="30px"/>
             </button>
-            <button className={css.iconBtn} aria-label="Cart">
-              🛍️
-            </button>
-            <button className={css.iconBtn} aria-label="Profile">
-              👤
+            <button className={css.iconBtn}>
+              <img src="user.png" />
             </button>
           </div>
 

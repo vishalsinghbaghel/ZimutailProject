@@ -7,22 +7,21 @@ const steps = [
     description:
       "Easily upload your body measurements from the comfort of your home. Use our user-friendly interface to input your details or take advantage of our shipped measuring tape for accuracy.",
     button: "Upload Now",
-    icon: "📏", 
-
+    icon: "/how/how1.png",
   },
   {
     title: "Get Recommendations",
     description:
       "Based on your measurements, our tool provides you with a curated list of products that will fit you perfectly. Browse through tailored options without the hassle of guessing sizes.",
     button: "See My Matches",
-    icon: "✅",
+    icon: "/how/how2.png",
   },
   {
     title: "Enjoy Hassle-free Shopping",
     description:
       "With our accurate size recommendations, you can confidently purchase items knowing they'll fit. This leads to a smoother, more enjoyable shopping experience both online and in-store.",
     button: "Start Shopping",
-    icon: "🛍️",
+    icon: "/how/how3.png",
   },
 ];
 
@@ -36,7 +35,9 @@ export default function HowItWorks() {
         <div className={styles.grid}>
           {steps.map((step, index) => (
             <div key={index} className={styles.card}>
-              <div className={styles.icon}>{step.icon} </div>
+             <div className={styles.icon}>
+                <img src={step.icon} alt={step.title} className={styles.iconImg} />
+              </div>
               <div className={styles.connector}>
                 <span className={styles.dottedLine}></span>
                 <span className={styles.circle}></span>

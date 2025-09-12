@@ -7,7 +7,7 @@ export  function Navbar() {
   return (
     <header className={css.navbar}>
       <div className={css.inner}>
-        {/* Menu links */}
+       
         <nav className={css.menu}>
           <NavLink
             to="/"
@@ -43,7 +43,7 @@ export  function Navbar() {
           </NavLink>
         </nav>
         <h2 className="zim">Zimutail</h2>
-        {/* Icons + Auth */}
+     
         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
           <div className={css.icons}>
             <button className={css.iconBtn} >

@@ -17,7 +17,7 @@
 }
 
 .menu {
-    text-decoration: none;
+    
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -29,8 +29,7 @@ width: 84px;
     height: 27px;
     top: 30px;
     left: 216px;
-    border-radius: 15px;
-        border: 1px;
+text-decoration: none;
     font: Poppins;
     font-weight: 400;
     font-style: Regular;
@@ -44,8 +43,7 @@ width: 84px;
     height: 27px;
     top: 30px;
     left: 216px;
-    border-radius: 15px;
-    border: 1px;
+text-decoration: none;
     font: Poppins;
     font-weight: 400;
     font-style: Regular;
@@ -59,8 +57,7 @@ width: 84px;
     height: 27px;
     top: 30px;
     left: 339px;
-    border-radius: 15px;
-    border: 1px;
+text-decoration: none;
     font: Poppins;
     font-weight: 400;
     font-style: Regular;
@@ -74,8 +71,7 @@ width: 49px;
     height: 27px;
     top: 30px;
     left: 451px;
-    border-radius: 15px;
-    border: 1px;
+text-decoration: none;
     font: Poppins;
     font-weight: 400;
     font-style: Regular;

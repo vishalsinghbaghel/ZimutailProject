@@ -7,7 +7,8 @@ const steps = [
     description:
       "Easily upload your body measurements from the comfort of your home. Use our user-friendly interface to input your details or take advantage of our shipped measuring tape for accuracy.",
     button: "Upload Now",
-    icon: "📏", // Replace with SVG if needed
+    icon: "📏", 
+
   },
   {
     title: "Get Recommendations",
@@ -35,7 +36,12 @@ export default function HowItWorks() {
         <div className={styles.grid}>
           {steps.map((step, index) => (
             <div key={index} className={styles.card}>
-              <div className={styles.icon}>{step.icon}</div>
+              <div className={styles.icon}>{step.icon} </div>
+              <div className={styles.connector}>
+                <span className={styles.dottedLine}></span>
+                <span className={styles.circle}></span>
+              </div>
+
               <h3 className={styles.title}>{step.title}</h3>
               <p className={styles.description}>{step.description}</p>
               <button className={styles.cta}>{step.button}</button>
@@ -44,5 +50,6 @@ export default function HowItWorks() {
         </div>
       </div>
     </section>
+   
   );
 }

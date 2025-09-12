@@ -33,8 +33,10 @@ export default function WhyChooseUs() {
           {benefits.map((benefit, index) => (
             <div key={index} className={styles.card}>
               <div className={styles.icon}>{benefit.icon}</div>
+              <div>
               <h3 className={styles.title}>{benefit.title}</h3>
-              <p className={styles.description}>{benefit.description}</p>
+                <p className={styles.description}>{benefit.description}</p>
+              </div>
             </div>
           ))}
         </div>

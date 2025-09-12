@@ -40,12 +40,47 @@ export function Footer() {
           </div>
 
           {/* Contact Info */}
+          {/* <div className={styles.section}>
+            <h3 className={styles.heading}>Get in touch with us</h3>
+            <ul className={styles.contact}>
+              <li>
+                <img src="/footer/location.png" /> City, State, Pin Code.
+              </li>
+              <li>
+                <img src="/footer/call.png" /> +91 0123456789
+              </li>
+              <li>
+                <img src="/footer/mail.png" /> Email@gmail.com
+              </li>
+            </ul>
+          </div> */}
           <div className={styles.section}>
             <h3 className={styles.heading}>Get in touch with us</h3>
             <ul className={styles.contact}>
-              <li>📍 City, State, Pin Code.</li>
-              <li>📞 +91 0123456789</li>
-              <li>✉️ Email@gmail.com</li>
+              <li className={styles.item}>
+                <img
+                  src="/footer/location.png"
+                  className={styles.icon}
+                  alt="Location"
+                />
+                <span>City, State, Pin Code.</span>
+              </li>
+              <li className={styles.item}>
+                <img
+                  src="/footer/call.png"
+                  className={styles.icon}
+                  alt="Phone"
+                />
+                <span>+91 0123456789</span>
+              </li>
+              <li className={styles.item}>
+                <img
+                  src="/footer/mail.png"
+                  className={styles.icon}
+                  alt="Email"
+                />
+                <span>Email@gmail.com</span>
+              </li>
             </ul>
           </div>
         </div>

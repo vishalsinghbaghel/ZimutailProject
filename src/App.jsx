@@ -7,7 +7,7 @@ import Hero from "./components/Hero.jsx";
 import { Features } from "./components/Features.jsx";
 import HowItWorks from "./components/HowItWorks.jsx";
 import WhyChooseUs from "./components/WhyChooseUs.jsx";
-import {Footer} from "./components/footer.jsx";
+import {Footer} from "./components/Footer.jsx";
 
 
 export default function App() {
